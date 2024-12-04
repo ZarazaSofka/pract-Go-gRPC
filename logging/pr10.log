@@ -1,0 +1,28 @@
+{"level":"info","ts":1702466739.7585604,"caller":"gateway/APIGateway.go:35","msg":"Connected to service 1"}
+{"level":"info","ts":1702466739.7701788,"caller":"gateway/APIGateway.go:45","msg":"Connected to service 2"}
+{"level":"info","ts":1702466739.7728426,"caller":"gateway/APIGateway.go:63","msg":"Starting server at :8080"}
+{"level":"info","ts":1702466751.952506,"caller":"handlers/session.go:60","msg":"Inner page for 123"}
+{"level":"info","ts":1702466759.5444005,"caller":"handlers/session.go:60","msg":"Inner page for 123"}
+{"level":"info","ts":1702466769.3380225,"caller":"handlers/session.go:60","msg":"Inner page for 123"}
+{"level":"info","ts":1702466774.5780468,"caller":"handlers/time.go:33","msg":"Sending current time"}
+{"level":"info","ts":1702475769.354053,"caller":"gateway/APIGateway.go:35","msg":"Connected to service 1"}
+{"level":"info","ts":1702475769.3559532,"caller":"gateway/APIGateway.go:45","msg":"Connected to service 2"}
+{"level":"info","ts":1702475769.3567805,"caller":"gateway/APIGateway.go:63","msg":"Starting server at :8080"}
+{"level":"info","ts":1702475797.7041032,"caller":"handlers/time.go:33","msg":"Sending current time"}
+{"level":"info","ts":1702475948.4314969,"caller":"handlers/time.go:33","msg":"Sending current time"}
+{"level":"info","ts":1702475956.3334022,"caller":"handlers/session.go:60","msg":"Inner page for 123"}
+{"level":"info","ts":1702944086.3492124,"caller":"gateway/APIGateway.go:35","msg":"Connected to service 1"}
+{"level":"info","ts":1702944086.376086,"caller":"gateway/APIGateway.go:45","msg":"Connected to service 2"}
+{"level":"info","ts":1702944086.3992214,"caller":"gateway/APIGateway.go:63","msg":"Starting server at :8080"}
+{"level":"info","ts":1702944110.7942533,"caller":"handlers/time.go:33","msg":"Sending current time"}
+{"level":"info","ts":1702944217.2218783,"caller":"handlers/session.go:60","msg":"Inner page for "}
+{"level":"info","ts":1702944325.5464337,"caller":"handlers/session.go:60","msg":"Inner page for 123"}
+{"level":"info","ts":1703059728.2522335,"caller":"gateway/APIGateway.go:40","msg":"Connected to service 1"}
+{"level":"info","ts":1703059728.2728739,"caller":"gateway/APIGateway.go:50","msg":"Connected to service 2"}
+{"level":"info","ts":1703059728.2829373,"caller":"gateway/APIGateway.go:86","msg":"Starting server at :8080"}
+{"level":"info","ts":1703067642.2103438,"caller":"gateway/APIGateway.go:40","msg":"Connected to service 1"}
+{"level":"info","ts":1703067642.222979,"caller":"gateway/APIGateway.go:50","msg":"Connected to service 2"}
+{"level":"info","ts":1703067642.232363,"caller":"gateway/APIGateway.go:86","msg":"Starting server at :8080"}
+{"level":"info","ts":1703080598.75509,"caller":"gateway/APIGateway.go:40","msg":"Connected to service 1"}
+{"level":"info","ts":1703080598.7726479,"caller":"gateway/APIGateway.go:50","msg":"Connected to service 2"}
+{"level":"info","ts":1703080598.7863078,"caller":"gateway/APIGateway.go:86","msg":"Starting server at :8080"}

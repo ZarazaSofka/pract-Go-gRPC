@@ -1,0 +1,10 @@
+FROM golang:1.21
+
+EXPOSE 8081
+
+RUN mkdir /service1
+WORKDIR /service1
+
+ADD . .
+
+ENTRYPOINT [ "go", "run", "/service1/cmd/service1/service1.go" ]

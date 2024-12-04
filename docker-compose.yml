@@ -1,0 +1,39 @@
+version: "3.6"
+
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: Docker_gateway
+    container_name: pr10-gateway
+    volumes:
+      - ./logging:/var/log/pr10
+  service1:
+    build:
+      context: .
+      dockerfile: Docker_service1
+    container_name: pr10-service1
+  service2:
+    build:
+      context: .
+      dockerfile: Docker_service2
+    container_name: pr10-service2
+  proxy:
+    image: nginx:alpine
+    container_name: pr10-proxy
+    volumes:
+      - ./proxy:/etc/nginx/conf.d
+    ports:
+      - "8080:80"
+  analytics:
+    image: pr12
+    depends_on:
+      - db
+    volumes:
+      - ./media:/app/media
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: pr12
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 4490

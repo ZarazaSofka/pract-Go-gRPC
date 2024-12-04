@@ -1,0 +1,10 @@
+FROM golang:1.21
+
+EXPOSE 8080
+
+RUN mkdir /gateway
+WORKDIR /gateway
+
+ADD . .
+
+ENTRYPOINT [ "go", "run", "/gateway/cmd/gateway/APIGateway.go" ]
